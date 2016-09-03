@@ -106,7 +106,7 @@ var app = window.app = new Vue({
                             title: 'Ranger'
                         })
                         marker.setMap(that.map)
-                        
+
                         that.map.setCenter(pos);
                     }, function() {
                         handleLocationError(true, infoWindow, that.map.getCenter());

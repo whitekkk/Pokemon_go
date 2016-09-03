@@ -36,8 +36,8 @@
                 <div v-for='show in list | filterBy search'>
                   <div id='box'>
                     <img src="{{show.icon}}" width="10%" @click="setPos(show.coords)">
-                    {{ show.name }}
-                    <br> {{ show.coords }}
+                    <span style="vertical-align: top">{{ show.name }}</span>
+                    {{ show.coords }}
                   </div>
                 </div>
             </div>

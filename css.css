@@ -18,6 +18,7 @@ body { font-size: 1em; }
     height: 100%;
     overflow: scroll;
     direction: ltr;
+    float: left;
 }
 #div-1a {
     position: absolute;
@@ -45,14 +46,5 @@ img {
   border: 2px solid #a1a1a1;
   background: #ddfddd;
   border-radius: 1em;
-}
-#box .text1 {
-  position: absolute;
-  right: 0;
-  width: 50%;
-}
-#box .text2 {
-  position: absolute;
-  left: 0;
-  width: 50%;
+  align : left;
 }
